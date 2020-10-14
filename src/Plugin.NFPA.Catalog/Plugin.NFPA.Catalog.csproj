@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>NFPA Data Service Project</Description>
+    <TargetFramework>net471</TargetFramework>
+    <PackageTags>$(PackageTags);Commerce;Plugin;Core</PackageTags>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sitecore.Commerce.Core" Version="5.0.42" />
+    <PackageReference Include="Sitecore.Commerce.Plugin.Catalog" Version="5.0.43" />
+    <PackageReference Include="Sitecore.Commerce.Plugin.Search" Version="5.0.21" />
+    <PackageReference Include="Sitecore.Commerce.Plugin.Views" Version="5.0.42" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Plugin.NFPA.EntityViews\Plugin.NFPA.EntityViews.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Sitecore.Commerce.Plugin.Management">
+      <HintPath>..\..\packages\sitecore.commerce.plugin.management\5.0.19\lib\net471\Sitecore.Commerce.Plugin.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Services.Core">
+      <HintPath>..\..\packages\sitecore.services.core\9.3.0\lib\net471\Sitecore.Services.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

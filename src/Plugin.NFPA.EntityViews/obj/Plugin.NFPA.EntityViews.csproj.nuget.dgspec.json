@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Sitecore 9.3 and Commerce\\Sitecore.Commerce.Engine.SDK.5.0.76\\src\\Plugin.NFPA.EntityViews\\Plugin.NFPA.EntityViews.csproj": {}
+  },
+  "projects": {
+    "D:\\Sitecore 9.3 and Commerce\\Sitecore.Commerce.Engine.SDK.5.0.76\\src\\Plugin.NFPA.EntityViews\\Plugin.NFPA.EntityViews.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Sitecore 9.3 and Commerce\\Sitecore.Commerce.Engine.SDK.5.0.76\\src\\Plugin.NFPA.EntityViews\\Plugin.NFPA.EntityViews.csproj",
+        "projectName": "Plugin.NFPA.EntityViews",
+        "projectPath": "D:\\Sitecore 9.3 and Commerce\\Sitecore.Commerce.Engine.SDK.5.0.76\\src\\Plugin.NFPA.EntityViews\\Plugin.NFPA.EntityViews.csproj",
+        "packagesPath": "D:\\Sitecore 9.3 and Commerce\\Sitecore.Commerce.Engine.SDK.5.0.76\\packages",
+        "outputPath": "D:\\Sitecore 9.3 and Commerce\\Sitecore.Commerce.Engine.SDK.5.0.76\\src\\Plugin.NFPA.EntityViews\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\Sitecore 9.3 and Commerce\\Sitecore.Commerce.Engine.SDK.5.0.76\\NuGet.Config",
+          "C:\\Users\\psoni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net471"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://sitecore.myget.org/F/sc-commerce-packages/api/v3/index.json": {},
+          "https://sitecore.myget.org/F/sc-packages/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net471": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "noWarn": [
+            "NU1605"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net471": {
+          "dependencies": {
+            "Sitecore.Commerce.Core": {
+              "target": "Package",
+              "version": "[5.0.*, )"
+            },
+            "Sitecore.Commerce.Plugin.Catalog": {
+              "target": "Package",
+              "version": "[5.0.43, )"
+            },
+            "Sitecore.Commerce.Plugin.Views": {
+              "target": "Package",
+              "version": "[5.0.42, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
